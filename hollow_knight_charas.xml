@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question value="Are they playable?">
+	<answer value="yes">
+		<question value="Are they the protagonist of the first game?">
+			<answer value="yes">
+				<thing>the Knight</thing>
+			</answer>
+			<answer value="no">
+				<thing>Hornet</thing>
+			</answer>
+		</question>
+	</answer>
+	<answer value="no">
+		<question value="Are they a boss?">
+			<answer value="yes">
+				<question value="Are they the true final boss of the game?">
+					<answer value="yes">
+						<thing>the Radiance</thing>
+					</answer>
+					<answer value="no">
+						<question value="Do they disguise themselves like your player character (of the first game)?">
+							<answer value="yes">
+								<thing>Nosk</thing>
+							</answer>
+							<answer value="no">
+								<question value="Do they restrict access to a certain (new) location?">
+									<answer value="yes">
+                    <question value="Does the location which they are guarding have someone residing?">
+                      <answer value="yes">
+                				<thing>Traitor Lord</thing>
+                			</answer>
+                			<answer value="no">
+                				<thing>Mantis Lords</thing>
+                			</answer>
+                    </question>
+									</answer>
+                  <answer value="no">
+                    <question value="Are they related to the playable character in some way?">
+                      <answer value="yes">
+                        <question value="Are they ABSOLUTELY necessary in order to finish the game?">
+                          <answer value="yes">
+                    				<thing>the Hollow Knight</thing>
+                    			</answer>
+                    			<answer value="no">
+                    				<thing>Broken Vessel</thing>
+                    			</answer>
+                        </question>
+    									</answer>
+                      <answer value="no">
+                        <thing>Grimm</thing>
+                      </answer>
+                    </question>
+                  </answer>
+								</question>
+							</answer>
+						</question>
+					</answer>
+				</question>
+      </answer>
+			<answer value="no">
+				<question value="Are they a higher being?">
+          <answer value="yes">
+    				<question value="Are they alive?">
+              <answer value="yes">
+        				<thing>White Lady</thing>
+        			</answer>
+        			<answer value="no">
+        				<thing>the Pale King</thing>
+        			</answer>
+            </question>
+    			</answer>
+    			<answer value="no">
+            <question value="Are they necessary in completing the game?">
+              <answer value="yes">
+        				<thing>the Dreamers</thing>
+        			</answer>
+        			<answer value="no">
+                <question value="Do they wander around the kingdom?">
+                  <answer value="yes">
+            				<question value="Are they nice?">
+                      <answer value="yes">
+                				<thing>Quirrel</thing>
+                			</answer>
+                			<answer value="no">
+                				<thing>Tiso</thing>
+                			</answer>
+                    </question>
+            			</answer>
+            			<answer value="no">
+            				<question value="Are they an ememy?">
+                      <answer value="yes">
+                				<question value="Are they annoying?">
+                          <answer value="yes">
+                    				<thing>Primal Aspid</thing>
+                    			</answer>
+                    			<answer value="no">
+                    				<thing>Boofly</thing>
+                    			</answer>
+                        </question>
+                			</answer>
+                			<answer value="no">
+                        <question value="Are they a kid?">
+                          <answer value="yes">
+                    				<thing>Myla</thing>
+                    			</answer>
+                    			<answer value="no">
+                    			     <question value="Are they a cool dude?">
+                                 <answer value="yes">
+                           				<thing>Elderbug</thing>
+                           			</answer>
+                           			<answer value="no">
+                           				<thing>Zote the Mighty</thing>
+                           			</answer>
+                               </question>
+                    			</answer>
+                        </question>
+											</answer>
+                    </question>
+            			</answer>
+                </question>
+        			</answer>
+            </question>
+          </answer>
+        </question>
+    	</answer>
+		</question>
+	</answer>
+</question>
